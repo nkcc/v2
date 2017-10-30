@@ -8350,153 +8350,96 @@ button.close {
   }
 }
 
-body {
-  padding-top: 60px;
+/* TIMELINE */
+
+#placement {
+  margin: 5px;
+  height: 500PX;
 }
 
-section {
-  overflow: auto;
+#placement * {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  line-height: 1.05;
 }
 
-textarea {
-  resize: vertical;
+[class*="span"] {
+  margin-left: 0px;
 }
 
-.jumbotron {
-  text-align: center;
+#timeglider-settings-save {
+  display: block;
+  text-align: right;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1;
+.timeglider-tick-label {
+  top: 0px;
+  font-size: small;
 }
 
-h1 {
-  font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
+.tag_controls {
+  padding: 12px;
+  background: #d8d8d8;
+  margin: 32px;
+  height: auto;
 }
 
-h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-weight: normal;
-  color: #777;
-}
-
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
-}
-
-/* header */
-
-.navbar-inverse {
-  background-color: #3c3e42;
-}
-
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: #fff;
-  text-decoration: none;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-}
-
-#logo:hover {
-  color: #fff;
-}
-
-/* footer */
-
-footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
-}
-
-footer a {
-  color: #555;
-}
-
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
+.tags-list {
   list-style: none;
 }
 
-footer ul li {
+.tags-list li {
   float: left;
-  margin-left: 15px;
+  font-size: 11px;
+  padding: 2px 6px;
+  background-color: #363430;
+  color: white;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
-footer img.brand-icon {
-  width: 17px;
-  height: 17px;
+.tags-list li.selected {
+  background-color: orange;
 }
 
-footer .slogon {
-  font-size: 13px;
-  font-weight: bold;
+.tags-list li:hover {
+  background-color: #ccc;
 }
 
-/* sidebar */
-
-aside section {
-  padding: 10px 0;
-  margin-top: 20px;
-}
-
-aside section:first-child {
-  border: 0;
-  padding-top: 0;
-}
-
-aside section span {
-  display: block;
-  margin-bottom: 3px;
-  line-height: 1;
-}
-
-section.user_info {
-  padding-bottom: 10px;
-  margin-top: 20px;
-  text-align: center;
-}
-
-section.user_info .gravatar {
-  float: none;
-  max-width: 70px;
-}
-
-section.user_info h1 {
-  font-size: 1.4em;
-  letter-spacing: -1px;
-  margin-bottom: 3px;
-  margin-top: 15px;
-}
-
-.gravatar {
-  float: left;
-  margin-right: 10px;
-  max-width: 50px;
+.timeglider-event-icon {
   border-radius: 50%;
+}
+
+.timeglider-tick-label {
+  top: 0px;
+  font-size: small;
+}
+
+.ui .active .selection .dropdown {
+  z-index: 9999;
+}
+
+.tg-datepicker-month-col li {
+  height: inherit;
+  margin: 5px;
+  padding: 1px;
+}
+
+.select2 .select2-container .select2-container--bootstrap {
+  width: 100% !important;
+}
+
+.tg-single-timeline-header {
+  z-index: 500;
+}
+
+.search-li {
+  margin: 0 10px 0 10px;
+  width: 200px;
+}
+
+.confirm-li {
+  margin-top: 10px;
 }
 

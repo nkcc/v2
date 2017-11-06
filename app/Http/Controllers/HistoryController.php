@@ -11,4 +11,9 @@ class HistoryController extends Controller
     {
         return view('history/timeline');
     }
+
+    public function test()
+    {
+        return view('history/test');
+    }
 }

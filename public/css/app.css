@@ -8350,17 +8350,95 @@ button.close {
   }
 }
 
+/* universal */
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+/* typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+.navbar-inverse {
+  background-color: #3c3e42;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+}
+
 /* TIMELINE */
 
 #placement {
-  margin: 5px;
-  height: 500PX;
+  height: 700px;
 }
 
 #placement * {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   line-height: 1.05;
+}
+
+#tg-datepicker .panel-footer {
+  padding: 0;
+  background-color: #bbb;
+  border-top: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 [class*="span"] {
@@ -8441,5 +8519,22 @@ button.close {
 
 .confirm-li {
   margin-top: 10px;
+}
+
+/* 浮动按钮 */
+
+.time-menu-float {
+  position: fixed;
+  top: 110px;
+  left: 30px;
+  z-index: 99997;
+}
+
+.time-menu-float .icon.ion-plus-circled {
+  font-size: 40px;
+}
+
+ul.floating-menu.animated.fadeInPosition {
+  z-index: 999999;
 }
 

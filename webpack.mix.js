@@ -32,5 +32,6 @@ mix.js('resources/assets/js/app.js', 'public/js')
         'public/js/timeglider/TG_Mediator.js',
         'public/js/timeglider/timeglider.timeline.widget.js',
         'public/js/timeglider/timeglider.datepicker.js',
-        'js/jquery.jscrollpane.min.js'
+        // 'public/js/jquery.jscrollpane.min.js',
+
     ], 'public/js/all.js');
